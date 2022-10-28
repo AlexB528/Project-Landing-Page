@@ -1,0 +1,162 @@
+.header, .footer, .section1 {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+button, .section4 .notmargin {
+    background-color: #3882F6;
+}
+
+.section4 .notmargin {  
+    border-radius: 10px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.section3 {
+    background-color: #E5E7Eb;
+    font-size: 18px;
+    font-style: italic;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item {
+    flex: 1;
+    display: flex;
+}
+
+.header, .footer {
+    display: flex;
+    /*gap: 10px;*/
+    flex: 0 1 auto;
+    height: 30px;
+}
+
+.margin {
+    flex-grow: 1;
+}
+
+.notmargin {
+    flex: 5 5 5px;
+    display: flex;
+    align-items: center;
+}
+
+[class*=section] {
+    padding: 15px 0px 15px 0px;
+}
+
+.header .notmargin {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    flex: 1 1 1px;
+}
+
+.headerlink {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7Eb;
+}
+
+
+
+.section1 .notmargin {
+    justify-content: space-between;
+}
+
+.section1 .notmargin div, .section1 .notmargin button {
+    margin: 5px;
+}
+
+.img {
+    height: 200px;
+    width: 500px;
+    border-radius: 25px;
+}
+
+.section2 .notmargin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fourimgs {
+    display: flex;
+}
+
+.oneoffour {
+    border-radius: 25px;
+}
+
+.left {
+    width: 400px;
+}
+
+.section4 .notmargin {
+    flex-direction: row;
+    justify-content: space-around;
+    color: #E5E7Eb;
+}
+
+
+.section3 .notmargin {
+    flex-direction: column;
+}
+
+.quoteone {
+    align-self: flex-start;
+}
+.speaker {
+    align-self: flex-end;
+}
+
+.oneoffour, .subtext {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+}
+
+button {
+    border-radius: 5px;
+    color: #E5E7Eb;
+}
+
+.footer {
+    color: #E5E7Eb;
+}
+
+.footer .notmargin {
+    justify-content: center;
+}
